@@ -1,0 +1,56 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image:url('../img/background.jpg');
+	background-size: cover;
+	color: white;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;	
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: silver;
+	color: black;
+}
+
+img {
+	width: 300px;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+img:hover {
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+div.menu {
+	height: 22px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font-family: Verdana;
+}
+
+div.vakje {
+	width: 280px;
+	height: 140px;
+	color: white;
+	background-image: url('../img/sportdag.jpg');
+	padding: 10px;
+}
